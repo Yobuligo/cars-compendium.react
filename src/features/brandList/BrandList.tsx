@@ -1,3 +1,3 @@
 export const BrandList = ()=>{
-    return <></>
+    return <>My brand list</>
 }
