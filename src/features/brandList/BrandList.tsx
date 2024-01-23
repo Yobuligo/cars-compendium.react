@@ -1,3 +1,5 @@
-export const BrandList = ()=>{
-    return <>My brand list</>
-}
+import { IBrandListProps } from "./IBrandListProps";
+
+export const BrandList: React.FC<IBrandListProps> = (props) => {
+  return <>My brand list</>;
+};
