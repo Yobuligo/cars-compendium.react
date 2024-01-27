@@ -1,3 +1,5 @@
-export const BrandItem: React.FC = ()=>{
-    return <></>
-}
+import { IBrandItemProps } from "./IBrandItemProps";
+
+export const BrandItem: React.FC<IBrandItemProps> = (props) => {
+  return <>{}</>;
+};
