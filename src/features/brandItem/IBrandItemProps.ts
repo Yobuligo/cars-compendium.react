@@ -1,1 +1,3 @@
-export interface IBrandItemProps {}
+export interface IBrandItemProps {
+    name: string
+}
